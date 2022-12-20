@@ -190,7 +190,7 @@ async def info_message(message: types.Message):
 
 @dp.message_handler(commands=['menu'])
 async def menu_message(message: types.Message):
-    await bot.send_photo(chat_id=message.from_user.id, photo = 'https://sun9-61.vkuserphoto.ru/impg/EIsOSOKNjMwKvrjI0lwRmjb4DrRV5wkcL6RpzA/qyEHdnVHZbQ.jpg?size=1080x1080&quality=96&sign=85f3fdbac70d55fcf5622afa4d83cf77&type=album', caption='Выбирай напиток и не выбирай вообще!', reply_markup=start)
+    await bot.send_photo(chat_id=message.from_user.id, photo = 'https://sun9-26.vkuserphoto.ru/impg/5UkFkOxfaj2PONYW0KIjAvy4dNQawFZBKFHexw/G2qz-qXsgyo.jpg?size=1584x2160&quality=95&sign=a408d02b13b53dec28cc6f6387f4f875&type=album', caption='Выбирай напиток и не выбирай вообще!', reply_markup=start)
 
 @dp.message_handler(commands=['start'])
 async def start_message(message: types.Message):
